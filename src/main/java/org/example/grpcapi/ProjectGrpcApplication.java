@@ -8,6 +8,7 @@ public class ProjectGrpcApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProjectGrpcApplication.class, args);
+		System.out.println("HELLO gRPC !");
 	}
 
 }

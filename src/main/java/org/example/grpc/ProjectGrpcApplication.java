@@ -1,4 +1,4 @@
-package org.example.grpcapi;
+package org.example.grpc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,5 +10,7 @@ public class ProjectGrpcApplication {
 		SpringApplication.run(ProjectGrpcApplication.class, args);
 		System.out.println("HELLO gRPC !");
 	}
+
+
 
 }
